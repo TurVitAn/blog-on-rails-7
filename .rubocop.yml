@@ -1,0 +1,19 @@
+AllCops:
+  TargetRubyVersion: 3.0.3
+  NewCops: enable
+  Exclude:
+    - 'bin/**'
+    - 'db/schema.rb'
+    - 'db/migrate/*'
+    - 'db/seeds/*'
+    - 'vendor/**/*'
+    - 'node_modules/**/*'
+
+Layout/LineLength:
+  Max: 120
+
+Style/FrozenStringLiteralComment:
+  Enabled: false
+
+Style/Documentation:
+  Enabled: false
