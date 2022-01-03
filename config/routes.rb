@@ -1,6 +1,11 @@
 Rails.application.routes.draw do
   devise_for :authors
-  root to: 'home#index'
-  get 'home/index'
-  resources :posts
+
+  root to: 'authors/posts#index'
+
+  gaget 'home/index'
+
+  scope module: 'authors' do
+    resources :posts
+  end
 end
