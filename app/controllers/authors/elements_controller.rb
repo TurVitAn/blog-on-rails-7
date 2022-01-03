@@ -22,7 +22,7 @@ module Authors
 
     def destroy
       @element.destroy
-      redirect_to edit_post_path(@post), notice: 'Element was successfully destroyed.'
+      redirect_to elements_url, notice: 'Element was successfully destroyed.'
     end
 
     private
