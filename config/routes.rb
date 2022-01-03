@@ -3,9 +3,11 @@ Rails.application.routes.draw do
 
   root to: 'authors/posts#index'
 
-  gaget 'home/index'
+  get 'home/index'
 
   scope module: 'authors' do
-    resources :posts
+    resources :posts do
+      resources :elements
+    end
   end
 end

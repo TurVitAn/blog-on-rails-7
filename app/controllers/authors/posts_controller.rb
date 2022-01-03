@@ -10,7 +10,9 @@ module Authors
       @post = current_author.posts.build
     end
 
-    def edit; end
+    def edit
+      @paragraph = @post.elements.build(element_type: 'paragraph')
+    end
 
     def create
       @post = current_author.posts.build(post_params)
