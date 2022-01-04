@@ -12,6 +12,7 @@ gem 'rails', '~> 7.0.0'
 gem 'sass-rails', '6.0'
 gem 'sprockets-rails'
 gem 'stimulus-rails'
+gem 'stimulus_reflex', '~> 3.5.0.pre8'
 gem 'turbolinks', '5.2.1'
 gem 'turbo-rails'
 gem 'tzinfo-data', platforms: %i[mingw mswin x64_mingw jruby]

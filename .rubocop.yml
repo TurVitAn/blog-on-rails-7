@@ -8,6 +8,7 @@ AllCops:
     - 'db/seeds/*'
     - 'vendor/**/*'
     - 'node_modules/**/*'
+    - 'config/**/*'
 
 Layout/LineLength:
   Max: 120
