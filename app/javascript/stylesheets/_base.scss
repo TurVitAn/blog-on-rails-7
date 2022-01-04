@@ -1,9 +1,16 @@
 .authors {
   .paragraph {
     transition: background-color 0.5s ease;
+
     &:hover {
       background-color: #f8f9fa;
       cursor: pointer;
+    }
+  }
+
+  .image {
+    img {
+      max-width: 100%;
     }
   }
 }

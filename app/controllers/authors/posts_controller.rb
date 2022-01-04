@@ -11,7 +11,7 @@ module Authors
     end
 
     def edit
-      @paragraph = @post.elements.build(element_type: 'paragraph')
+      @element = @post.elements.build
     end
 
     def create
