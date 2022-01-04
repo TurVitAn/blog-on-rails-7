@@ -15,4 +15,13 @@
       max-width: 80%;
     }
   }
+
+  .post-card {
+    .header-img {
+      width: 100%;
+      height: 120px;
+      background-size: cover;
+      background-position: center;
+    }
+  }
 }
