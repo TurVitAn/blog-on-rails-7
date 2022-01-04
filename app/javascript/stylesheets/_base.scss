@@ -24,4 +24,14 @@
       background-position: center;
     }
   }
+
+  .delete-btn {
+    position: absolute;
+    right: calc(10% + 38px);
+    opacity: 0.7;
+
+    &:hover {
+      opacity: 1;
+    }
+  }
 }
